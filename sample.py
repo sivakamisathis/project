@@ -108,7 +108,9 @@ def tri_recursion(k):
     result = 0
   return result
 x=["rat","goat","cow","ant","horse"]
+print("\n")
 print("Recursion Example Results:")
+
 tri_recursion(6)
 
 
