@@ -100,21 +100,17 @@
 
 
 
+
+
 def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 2)
-    print(result)
-  else:
-    result = 0
-  return result
-x=["rat","goat","cow","ant","horse"]
-print("\n")
-print("Recursion Example Results:")
+    if k > 0:
+        result = k + tri_recursion(k - 2)  # Fixed recursion call
+        print(result)
+    else:
+        result = 0  # Fixed syntax error
+    return result
 
+x = ["rat", "goat", "cow", "ant", "horse"]
+
+print("\nRecursion Example Results:")
 tri_recursion(6)
-
-
-
-
-
-
