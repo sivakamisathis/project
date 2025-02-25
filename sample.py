@@ -83,35 +83,35 @@
 # print(len(my_dict))
 
 # # #Set Operations
-# # set={1,2,3,4,5}
-# # print("Original set is:",set)
-# # set.add(6)
-# # print("Set after adding 6:",set)
-# # set.add(3)
-# # print("Set after trying to add 3 again:",set)
-# # set.remove(2)
-# # print("Set after removing 2:",set)
-# # set1={4,5,6,7,8}
-# # set2=set.union(set1)
-# # print("Union of sets:",set2)
-# # set2=set.intersection(set1)
-# # print("Intersection of sets:",set2)
-# # print("Length of the set:",len(set))
+set={1,2,3,4,5}
+print("Original set is:",set)
+set.add(6)
+print("Set after adding 6:",set)
+set.add(3)
+print("Set after trying to add 3 again:",set)
+set.remove(2)
+print("Set after removing 2:",set)
+set1={4,5,6,7,8}
+set2=set.union(set1)
+print("Union of sets:",set2)
+set2=set.intersection(set1)
+print("Intersection of sets:",set2)
+print("Length of the set:",len(set))
 
 
 
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 2)
-    print(result)
-  else:
-    result = 0
-  return result
-x=["rat","goat","cow","ant","horse"]
-print("\n")
-print("Recursion Example Results:")
+# def tri_recursion(k):
+#   if(k > 0):
+#     result = k + tri_recursion(k - 2)
+#     print(result)
+#   else:
+#     result = 0
+#   return result
+# x=["rat","goat","cow","ant","horse"]
+# print("\n")
+# print("Recursion Example Results:")
 
-tri_recursion(6)
+# tri_recursion(6)
 
 
 
