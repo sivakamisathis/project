@@ -1,14 +1,14 @@
-a=int(input("Enter the value:"))
-if a%2==0:
-    print("a is even")
-else:
-    print("a is odd")
+# a=int(input("Enter the value:"))
+# if a%2==0:
+#     print("a is even")
+# else:
+#     print("a is odd")
 
-# age=int(input("enter the age:"))
-# if age <= 12:
-#     print("child")
-# elif age<=17:
-#     print("teen")
+age=int(input("enter the age:"))
+if age <= 12:
+    print("child")
+elif age<=17:
+    print("teen")
 
 # num=-5
 # if num > 0:
