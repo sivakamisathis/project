@@ -9,14 +9,14 @@
 # print("The Division is:",e)
 
 
-#f-string
-x="is"
-y="Language"
-print("Python {} a programming {}!" .format(x,y))
+# #f-string
+# x="is"
+# y="Language"
+# print("Python {} a programming {}!" .format(x,y))
 
-# s=int(5)
-# s1=int(3)
-# print(f"The sum of two values are:{s+s1}")
+s=int(5)
+s1=int(3)
+print(f"The sum of two values are:{s+s1}")
 
 
 # #Sep() and end()
