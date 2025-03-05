@@ -1,12 +1,12 @@
-a=5
-b=7
-c=a+b
-print("The addition of two numbers:",c)
-#square root
-# import math
-# x=16
-# y=math.sqrt(x)
-# print(y)
+# a=5
+# b=7
+# c=a+b
+# print("The addition of two numbers:",c)
+# square root
+import math
+x=16
+y=math.sqrt(x)
+print(y)
 #Area of triangle
 # a=5
 # b=6
