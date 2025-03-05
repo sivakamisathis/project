@@ -1,13 +1,13 @@
-# # Arithmetic Operators
-# x=7
-# y=5
-# print("The Addition of two numbers:",x+y)
-# print("The Subtraction of two numbers:",x-y)
-# print("The Multiplication of two numbers:",x*y)
-# print("The Division of two numbers:",x/y)
-# print("The Modulo division of two numbers:",x%y)
-# print("The Exponentiation of two numbers:",x**y)
-# print("The floor division of two numbers:",x//y)
+# Arithmetic Operators
+x=7
+y=5
+print("The Addition of two numbers:",x+y)
+print("The Subtraction of two numbers:",x-y)
+print("The Multiplication of two numbers:",x*y)
+print("The Division of two numbers:",x/y)
+print("The Modulo division of two numbers:",x%y)
+print("The Exponentiation of two numbers:",x**y)
+print("The floor division of two numbers:",x//y)
 
 #Assignment Operators:
 # x=7
