@@ -1,18 +1,18 @@
-#Accept two numbers from the user 
-a=int(input("Enter the a value:"))
-b=int(input("Enter the b value:"))
-c=a+b
-d=a*b
-e=int(a/b)
-print("The Sum is:",c)
-print("The Multiplication is:",d)
-print("The Division is:",e)
+# #Accept two numbers from the user 
+# a=int(input("Enter the a value:"))
+# b=int(input("Enter the b value:"))
+# c=a+b
+# d=a*b
+# e=int(a/b)
+# print("The Sum is:",c)
+# print("The Multiplication is:",d)
+# print("The Division is:",e)
 
 
-# #f-string
-# x="is"
-# y="Language"
-# print("Python {} a programming {}!" .format(x,y))
+#f-string
+x="is"
+y="Language"
+print("Python {} a programming {}!" .format(x,y))
 
 # s=int(5)
 # s1=int(3)
