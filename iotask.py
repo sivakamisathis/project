@@ -14,9 +14,9 @@
 # y="Language"
 # print("Python {} a programming {}!" .format(x,y))
 
-s=int(5)
-s1=int(3)
-print(f"The sum of two values are:{s+s1}")
+# s=int(5)
+# s1=int(3)
+# print(f"The sum of two values are:{s+s1}")
 
 
 # #Sep() and end()
@@ -25,17 +25,16 @@ print(f"The sum of two values are:{s+s1}")
 
 # print("fruits","vegetables","nuts",sep=':')
 
+ #using modular operator int, float, string,hexadecimal,octal[add the two number 65+75]
 
-# #using modular operator int, float, string,hexadecimal,octal[add the two number 65+75]
-
-# num1=int(input("Enter the first value:"))
-# num2=int(input("Enter the second value:"))
-# add=num1+num2
-# print("The sum is :%d" %add)
-# print("The sum is :%f" %add)
-# print("The sum is :%s" %add)
-# print("The sum is :%x" %add)
-# print("The sum is :%o" %add)
+num1=int(input("Enter the first value:"))
+num2=int(input("Enter the second value:"))
+add=num1+num2
+print("The sum is :%d" %add)
+print("The sum is :%f" %add)
+print("The sum is :%s" %add)
+print("The sum is :%x" %add)
+print("The sum is :%o" %add)
 
 # num1=str(input("Enter the first value:"))
 # num2=str(input("Enter the second value:"))
