@@ -8,24 +8,24 @@
 # y=math.sqrt(x)
 # print(y)
 #Area of triangle
-a=5
-b=6
-c=7
-s=(a+b+c)/2
-area=(s*(s-a)*(s-b)*(s-c))**0.5
-print("The area of triangle is %0.2f" %area)
-
-
-# # swap two variables
 # a=5
 # b=6
-# x=a
-# a=b
-# b=x
-# # print("After swapping the value of a is :{}" .format(a))
-# # print("After swapping the values of b is :{}" .format(b))
-# print(f"After swapping the value of a is:{a}")
-# print(f"After swapping the values of b is:{b}")
+# c=7
+# s=(a+b+c)/2
+# area=(s*(s-a)*(s-b)*(s-c))**0.5
+# print("The area of triangle is %0.2f" %area)
+
+
+# swap two variables
+a=5
+b=6
+x=a
+a=b
+b=x
+# print("After swapping the value of a is :{}" .format(a))
+# print("After swapping the values of b is :{}" .format(b))
+print(f"After swapping the value of a is:{a}")
+print(f"After swapping the values of b is:{b}")
 
 #without using temporary variabls:
 # a=5
