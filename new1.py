@@ -26,6 +26,8 @@ b=x
 # print("After swapping the values of b is :{}" .format(b))
 print(f"After swapping the value of a is:{a}")
 print(f"After swapping the values of b is:{b}")
+print(f"After swapping the values of b is:{b}")
+
 
 #without using temporary variabls:
 # a=5
