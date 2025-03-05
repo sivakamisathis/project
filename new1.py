@@ -1,7 +1,7 @@
-# a=5
-# b=7
-# c=a+b
-# print("The addition of two numbers:",c)
+a=5
+b=7
+c=a+b
+print("The addition of two numbers:",c)
 #square root
 # import math
 # x=16
@@ -40,15 +40,15 @@
 
 
 
-#swap case:
-name="SiVaKAmI"
-print(name.swapcase())
-s1="THIS IS A PROGRAM"
-print(s1.swapcase())
-s2="python language"
-print(s2.swapcase())
-s3="ThiS iS a pYthON prOGRAMming laNGUage"
-print(s3.swapcase())
+# #swap case:
+# name="SiVaKAmI"
+# print(name.swapcase())
+# s1="THIS IS A PROGRAM"
+# print(s1.swapcase())
+# s2="python language"
+# print(s2.swapcase())
+# s3="ThiS iS a pYthON prOGRAMming laNGUage"
+# print(s3.swapcase())
 
 
 
