@@ -7,8 +7,13 @@
 age=int(input("enter the age:"))
 if age <= 12:
     print("child")
+    print("\n")
+    print("My child age is below 12")
 elif age<=17:
     print("teen")
+    print("\n")
+    print("My child age is above 12")
+    
 
 # num=-5
 # if num > 0:
