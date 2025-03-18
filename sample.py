@@ -1,15 +1,16 @@
 
-# #Create python program add, sum, product, difference
-# a=5
-# b=2.5
-# c=a+b
-# d=a-b
-# e=a*b
-# f=a/b
-# print("The sum is:",c)
-# print("The Difference is:",d)
-# print("The product is:",e)
-# print("The Quotient is:",f)
+#Create python program add, sum, product, difference
+a=5
+b=2.5
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+print("The sum is:",c)
+print("The Difference is:",d)
+print("The product is:",e)
+print("The Quotient is:",f)
+print("The all operations")
 
 # #Boolean Operations
 # is_sunny=True
@@ -102,15 +103,15 @@
 
 
 
-def tri_recursion(k):
-    if k > 0:
-        result = k + tri_recursion(k - 2)  # Fixed recursion call
-        print(result)
-    else:
-        result = 0  # Fixed syntax error
-    return result
+# def tri_recursion(k):
+#     if k > 0:
+#         result = k + tri_recursion(k - 2)  # Fixed recursion call
+#         print(result)
+#     else:
+#         result = 0  # Fixed syntax error
+#     return result
 
-x = ["rat", "goat", "cow", "ant", "horse"]
+# x = ["rat", "goat", "cow", "ant", "horse"]
 
-print("\nRecursion Example Results:")
-tri_recursion(6)
+# print("\nRecursion Example Results:")
+# tri_recursion(6)
