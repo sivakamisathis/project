@@ -44,13 +44,13 @@
 # x=["rat","goat","cow","ant","horse"]
 # [print(i) for i in x]
 
-#List comprehension:
-# x=["rat","goat","cow","ant","horse"]
-# x1=[]
-# for i in x:
-#     if "a" in i:
-#         x1.append(i)
-# print(x1)
+# List comprehension:
+x=["rat","goat","cow","ant","horse"]
+x1=[]
+for i in x:
+    if "a" in i:
+        x1.append(i)
+print(x1)
 
 # #List comprehension:
 # x=["rat","goat","cow","ant","horse"]
