@@ -1,22 +1,23 @@
 
-#Create python program add, sum, product, difference
-a=5
-b=2.5
-c=a+b
-d=a-b
-e=a*b
-f=a/b
-print("The sum is:",c)
-print("The Difference is:",d)
-print("The product is:",e)
-print("The Quotient is:",f)
-print("The all operations")
+# #Create python program add, sum, product, difference
+# a=5
+# b=2.5
+# c=a+b
+# d=a-b
+# e=a*b
+# f=a/b
+# print("The sum is:",c)
+# print("The Difference is:",d)
+# print("The product is:",e)
+# print("The Quotient is:",f)
+# print("The all operations")
 
-# #Boolean Operations
-# is_sunny=True
-# is_raining=False
-# result=is_sunny or is_raining
-# print("Is either sunny or raining?:",True)
+#Boolean Operations
+is_sunny=True
+is_raining=False
+result=is_sunny or is_raining
+print("Is either sunny or raining?:",True)
+print("This is boolean operations")
 
 # is_sunny=True
 # is_raining=False
