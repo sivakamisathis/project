@@ -38,20 +38,21 @@ print(" ")
 print("The Replaced string:",y)
 print(" ")
 
-# #List Operations
-# fruits=["apple","banana","cherry","orange"]
-# print("The original list:", fruits)
-# fruits.append("grapes")
-# print("updated list after adding grapes:",fruits)
-# fruits.insert(1,"kiwi")
-# print("List after inserting kiwi at index 1:",fruits)
-# fruits.remove("banana")
-# print("List after removing banana:",fruits)
-# z=fruits.index("cherry")
-# print("Index of cherry:",z)
-# print("First three fruits:",fruits[0:3])
-# print("Last two fruits:",fruits[3:])
-# print("The length of the list:",len(fruits))
+#List Operations
+fruits=["apple","banana","cherry","orange"]
+print("The original list:", fruits)
+fruits.append("grapes")
+print("updated list after adding grapes:",fruits)
+fruits.insert(1,"kiwi")
+print("List after inserting kiwi at index 1:",fruits)
+fruits.remove("banana")
+print("List after removing banana:",fruits)
+z=fruits.index("cherry")
+print("Index of cherry:",z)
+print("")
+print("First three fruits:",fruits[0:3])
+print("Last two fruits:",fruits[3:])
+print("The length of the list:",len(fruits))
 
 
 # #tuple Operations
