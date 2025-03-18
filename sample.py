@@ -34,6 +34,7 @@ print("The substring:", x[0:6])
 x1=x.upper()
 print("The uppercase :",x1)
 y=x.replace("Programming","Language!")
+print(" ")
 print("The Replaced string:",y)
 print(" ")
 
