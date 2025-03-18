@@ -27,45 +27,46 @@
 #     print("otherwise:",False)
 
 
-#String operations:
-x="Python Programming"
-print("The oringinal string:",x)
-print("The substring:", x[0:6])
-x1=x.upper()
-print("The uppercase :",x1)
-y=x.replace("Programming","Language!")
+# #String operations:
+# x="Python Programming"
+# print("The oringinal string:",x)
+# print("The substring:", x[0:6])
+# x1=x.upper()
+# print("The uppercase :",x1)
+# y=x.replace("Programming","Language!")
+# print(" ")
+# print("The Replaced string:",y)
+# print(" ")
+
+# #List Operations
+# fruits=["apple","banana","cherry","orange"]
+# print("The original list:", fruits)
+# fruits.append("grapes")
+# print("updated list after adding grapes:",fruits)
+# fruits.insert(1,"kiwi")
+# print("List after inserting kiwi at index 1:",fruits)
+# fruits.remove("banana")
+# print("List after removing banana:",fruits)
+# z=fruits.index("cherry")
+# print("Index of cherry:",z)
+# print("")
+# print("First three fruits:",fruits[0:3])
+# print("Last two fruits:",fruits[3:])
+# print("The length of the list:",len(fruits))
+
+
+#tuple Operations
+tuple=(10,20)
+print("Original tuple:",tuple)
+#tuple[1]=30
+#print(tuple)
+tuple1=(30,40)
+result=tuple+tuple1
+print("The concatenated tuple is:",result)
+print("The first element of tuple is:",tuple[0])
+print("The last element of tuple is:",tuple[1])
 print(" ")
-print("The Replaced string:",y)
-print(" ")
-
-#List Operations
-fruits=["apple","banana","cherry","orange"]
-print("The original list:", fruits)
-fruits.append("grapes")
-print("updated list after adding grapes:",fruits)
-fruits.insert(1,"kiwi")
-print("List after inserting kiwi at index 1:",fruits)
-fruits.remove("banana")
-print("List after removing banana:",fruits)
-z=fruits.index("cherry")
-print("Index of cherry:",z)
-print("")
-print("First three fruits:",fruits[0:3])
-print("Last two fruits:",fruits[3:])
-print("The length of the list:",len(fruits))
-
-
-# #tuple Operations
-# tuple=(10,20)
-# print("Original tuple:",tuple)
-# #tuple[1]=30
-# #print(tuple)
-# tuple1=(30,40)
-# result=tuple+tuple1
-# print("The concatenated tuple is:",result)
-# print("The first element of tuple is:",tuple[0])
-# print("The last element of tuple is:",tuple[1])
-# print("The length of tuple is:",len(tuple))
+print("The length of tuple is:",len(tuple))
 
 
 # #Dictionary Operations
