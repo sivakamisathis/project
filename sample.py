@@ -12,12 +12,12 @@
 # print("The Quotient is:",f)
 # print("The all operations")
 
-#Boolean Operations
-is_sunny=True
-is_raining=False
-result=is_sunny or is_raining
-print("Is either sunny or raining?:",True)
-print("This is boolean operations")
+# #Boolean Operations
+# is_sunny=True
+# is_raining=False
+# result=is_sunny or is_raining
+# print("Is either sunny or raining?:",True)
+# print("This is boolean operations")
 
 # is_sunny=True
 # is_raining=False
@@ -27,14 +27,15 @@ print("This is boolean operations")
 #     print("otherwise:",False)
 
 
-# #String operations:
-# x="Python Programming"
-# print("The oringinal string:",x)
-# print("The substring:", x[0:6])
-# x1=x.upper()
-# print("The uppercase :",x1)
-# y=x.replace("Programming","Language!")
-# print("The Replaced string:",y)
+#String operations:
+x="Python Programming"
+print("The oringinal string:",x)
+print("The substring:", x[0:6])
+x1=x.upper()
+print("The uppercase :",x1)
+y=x.replace("Programming","Language!")
+print("The Replaced string:",y)
+print(" ")
 
 # #List Operations
 # fruits=["apple","banana","cherry","orange"]
