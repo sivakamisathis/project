@@ -55,38 +55,38 @@
 # print("The length of the list:",len(fruits))
 
 
-#tuple Operations
-tuple=(10,20)
-print("Original tuple:",tuple)
-#tuple[1]=30
-#print(tuple)
-tuple1=(30,40)
-result=tuple+tuple1
-print("The concatenated tuple is:",result)
-print("The first element of tuple is:",tuple[0])
-print("The last element of tuple is:",tuple[1])
-print(" ")
-print("The length of tuple is:",len(tuple))
+# #tuple Operations
+# tuple=(10,20)
+# print("Original tuple:",tuple)
+# #tuple[1]=30
+# #print(tuple)
+# tuple1=(30,40)
+# result=tuple+tuple1
+# print("The concatenated tuple is:",result)
+# print("The first element of tuple is:",tuple[0])
+# print("The last element of tuple is:",tuple[1])
+# print(" ")
+# print("The length of tuple is:",len(tuple))
 
 
-# #Dictionary Operations
-# my_dict={"name":"Siva","age":20,"city":"New york"}
-# print("Original dictionary:",my_dict)
-# my_dict.update({"age":31})
-# print("Updated dictionary with new age:",my_dict)
-# my_dict.update({"job":"Engineer"})
-# print("Dictionary after adding job:", my_dict)
-# my_dict.pop("city")
-# print("Dictionary after removing city:",my_dict)
-# #print("Name:",my_dict.get("name"))
-# print("Name:",my_dict["name"])
-# '''res=True
-# for ele in my_dict:
-#     if not my_dict[ele]:
-#         res=False
-#         break'''
-# print("Job exists:" "job" in my_dict)
-# print(len(my_dict))
+#Dictionary Operations
+my_dict={"name":"Siva","age":20,"city":"New york"}
+print("Original dictionary:",my_dict)
+my_dict.update({"age":31})
+print("Updated dictionary with new age:",my_dict)
+my_dict.update({"job":"Engineer"})
+print("Dictionary after adding job:", my_dict)
+my_dict.pop("city")
+print("Dictionary after removing city:",my_dict)
+#print("Name:",my_dict.get("name"))
+print("Name:",my_dict["name"])
+'''res=True
+for ele in my_dict:
+    if not my_dict[ele]:
+        res=False
+        break'''
+print("Job exists:" "job" in my_dict)
+print(len(my_dict))
 
 # # #Set Operations
 # # set={1,2,3,4,5}
