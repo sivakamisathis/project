@@ -1,15 +1,15 @@
 
-# #Create python program add, sum, product, difference
-# a=5
-# b=2.5
-# c=a+b
-# d=a-b
-# e=a*b
-# f=a/b
-# print("The sum is:",c)
-# print("The Difference is:",d)
-# print("The product is:",e)
-# print("The Quotient is:",f)
+#Create python program add, sum, product, difference
+a=5
+b=2.5
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+print("The sum is:",c)
+print("The Difference is:",d)
+print("The product is:",e)
+print("The Quotient is:",f)
 
 # #Boolean Operations
 # is_sunny=True
