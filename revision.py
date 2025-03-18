@@ -51,6 +51,7 @@ for i in x:
     if "a" in i:
         x1.append(i)
 print(x1)
+print("")
 
 # #List comprehension:
 # x=["rat","goat","cow","ant","horse"]
