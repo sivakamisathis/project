@@ -69,40 +69,40 @@
 # print("The length of tuple is:",len(tuple))
 
 
-#Dictionary Operations
-my_dict={"name":"Siva","age":20,"city":"New york"}
-print("Original dictionary:",my_dict)
-my_dict.update({"age":31})
-print("Updated dictionary with new age:",my_dict)
-my_dict.update({"job":"Engineer"})
-print("Dictionary after adding job:", my_dict)
-my_dict.pop("city")
-print("Dictionary after removing city:",my_dict)
-#print("Name:",my_dict.get("name"))
-print("Name:",my_dict["name"])
-'''res=True
-for ele in my_dict:
-    if not my_dict[ele]:
-        res=False
-        break'''
-print("Job exists:" "job" in my_dict)
-print(len(my_dict))
+# #Dictionary Operations
+# my_dict={"name":"Siva","age":20,"city":"New york"}
+# print("Original dictionary:",my_dict)
+# my_dict.update({"age":31})
+# print("Updated dictionary with new age:",my_dict)
+# my_dict.update({"job":"Engineer"})
+# print("Dictionary after adding job:", my_dict)
+# my_dict.pop("city")
+# print("Dictionary after removing city:",my_dict)
+# #print("Name:",my_dict.get("name"))
+# print("Name:",my_dict["name"])
+# '''res=True
+# for ele in my_dict:
+#     if not my_dict[ele]:
+#         res=False
+#         break'''
+# print("Job exists:" "job" in my_dict)
+# print(len(my_dict))
 
-# # #Set Operations
-# # set={1,2,3,4,5}
-# # print("Original set is:",set)
-# # set.add(6)
-# # print("Set after adding 6:",set)
-# # set.add(3)
-# # print("Set after trying to add 3 again:",set)
-# # set.remove(2)
-# # print("Set after removing 2:",set)
-# # set1={4,5,6,7,8}
-# # set2=set.union(set1)
-# # print("Union of sets:",set2)
-# # set2=set.intersection(set1)
-# # print("Intersection of sets:",set2)
-# # print("Length of the set:",len(set))
+#Set Operations
+set={1,2,3,4,5}
+print("Original set is:",set)
+set.add(6)
+print("Set after adding 6:",set)
+set.add(3)
+print("Set after trying to add 3 again:",set)
+set.remove(2)
+print("Set after removing 2:",set)
+set1={4,5,6,7,8}
+set2=set.union(set1)
+print("Union of sets:",set2)
+set2=set.intersection(set1)
+print("Intersection of sets:",set2)
+print("Length of the set:",len(set))
 
 
 
